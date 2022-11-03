@@ -22,7 +22,7 @@ For the API to work, you need to install the following modules:
 * Install jsonwebtoken ``` $ npm install jsonwebtoken```
 * Install multer ```$ npm install multer```
 * Install cross-env ```$ npm install cross-env```
-* Install dotenv ```$ npm install dotenv --save```
+* Install dotenv ```$ npm install dotenv```
 
 ## Startup
 
