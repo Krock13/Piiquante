@@ -10,22 +10,22 @@ Piiquante is dedicated to creating spicy sauces whose recipes are kept secret. T
 
 ## Prerequisites
 
-* Front-end - [Use the project repository for the frontend and follow its README](https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6)
+Front-end - [Use the project repository for the frontend and follow its README](https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6)
 
-> For simplicity :
-> 1 - Install the latest version of [node.js(LTS)](https://nodejs.org/en/),
-> 2 - Install Angular ```$ npm install -g @angular/cli```
-> 3 - Clone repository ```https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git```
-> 4 - Install node packages ```$ npm install```
-> 5 - Start the server ```npm start```
-> 6 - Open in browser ```http://localhost:4200/```
+For simplicity :
+1. Install the latest version of [node.js(LTS)](https://nodejs.org/en/),
+2. Install Angular ```$ npm install -g @angular/cli```
+3. Clone repository ```https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git```
+4. Install node packages ```$ npm install```
+5. Start the server ```npm start```
+6. Open in browser ```http://localhost:4200/```
 
 ## Installing the API and Startup
 
-> 1 - Clone API repository ```https://github.com/Krock13/Piiquante.git```
-> 2 - Install node packages ```$ npm install```
-> 3 - Paste the ```.env``` file provided to you in the root (API)
-> 4 - Start the server ```npm start```
+1. Clone API repository ```https://github.com/Krock13/Piiquante.git```
+2. Install node packages ```$ npm install```
+3. Paste the ```.env``` file provided to you in the root (API)
+4. Start the server ```npm start```
 
 !  Warning ! At this stage you have launched the front server and the API server.
 
