@@ -106,9 +106,9 @@ graph  TD
 
 A[POST]  -->  B["/"api/sauces]
 
-B  -->  C[auth]
+B  -->  C[auth*]
 
-C  -->  D[multer]
+C  -->  D[multer*]
 
 D  -->  E[The user_id of the request is replaced by that of auth]
 
@@ -116,7 +116,7 @@ E  -->  F[(Creation of a new Sauce object <br />in the database with the Sauce m
 
 A  -->  G["/"api/sauces/:id/like]
 
-G  -->  H[auth]
+G  -->  H[auth*]
 
 H  -->  I[Add like = 1<br />Add disLike = -1]
 
@@ -136,9 +136,9 @@ graph  TD
 
 A[PUT]  -->  B["/"api/sauces/:id]
 
-B  -->  C[auth]
+B  -->  C[auth*]
 
-C  -->  D[multer]
+C  -->  D[multer*]
 
 D  -->  E[Checking the presence of an image file <br />in the request to save it]
 
@@ -154,7 +154,7 @@ graph  TD
 
 A[DELETE]  -->  B["/"api/sauces/:id]
 
-B  -->  C[auth]
+B  -->  C[auth*]
 
 C  -->  D[Checking of the user's id using the token]
 
