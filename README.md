@@ -11,27 +11,23 @@ Piiquante is dedicated to creating spicy sauces whose recipes are kept secret. T
 ## Prerequisites
 
 * Front-end - [Use the project repository for the frontend and follow its README](https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6)
-* [Node.js](https://nodejs.org/en/)
 
-## Installation
+> For simplicity :
+> 1 - Install the latest version of [node.js(LTS)](https://nodejs.org/en/),
+> 2 - Install Angular ```$ npm install -g @angular/cli```
+> 3 - Clone repository ```https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git```
+> 4 - Install node packages ```$ npm install```
+> 5 - Start the server ```npm start```
+> 6 - Open in browser ```http://localhost:4200/```
 
-For the API to work, you need to install the following modules:
-* Install express ```$ npm install express```
-* Install mongoose ```$ npm install mongoose```
-* Install bcrypt ```$ npm install bcrypt```
-* Install jsonwebtoken ``` $ npm install jsonwebtoken```
-* Install multer ```$ npm install multer```
-* Install cross-env ```$ npm install cross-env```
-* Install dotenv ```$ npm install dotenv```
+## Installing the API and Startup
 
-## Startup
+> 1 - Clone API repository ```https://github.com/Krock13/Piiquante.git```
+> 2 - Install node packages ```$ npm install```
+> 3 - Paste the ```.env``` file provided to you in the root (API)
+> 4 - Start the server ```npm start```
 
-Paste the ```.env``` file provided to you in the root
-From the terminal enter the following command:
-```$ npm start```
-
-Then open the browser on the page:
-```http://localhost:4200/```
+!  Warning ! At this stage you have launched the front server and the API server.
 
 # Diagram for API user authentication
 
