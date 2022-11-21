@@ -1,4 +1,6 @@
-﻿# Piiquante
+﻿https://github.com/Krock13/Piiquante
+
+# Piiquante
 
 This is the code of the API of the site **Piiquante** for the project 6 of the web developer training **OpenClassroom**.
 Piiquante is dedicated to creating spicy sauces whose recipes are kept secret. To capitalize on its success and generate more buzz, the company wants to create a web application in which users can add their favorite sauces and like or dislike sauces added by others.
